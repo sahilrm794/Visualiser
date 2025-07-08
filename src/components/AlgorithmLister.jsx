@@ -30,19 +30,11 @@ function AlgorithmLister() {
         />
       </div>
 
-      <div className="col-span-4 row-span-2">
+      <div className="col-span-8 row-span-2">
         <AlgorithmCard
           whichLink="/graph"
           heading="Graph Algorithms"
           description="Explore and visualize different Graph Algorithms"
-        />
-      </div>
-
-      <div className="col-span-4 row-span-2">
-        <AlgorithmCard
-          whichLink="/sorting"
-          heading="Tree Algorithms"
-        description="Explore and visualize various Tree Algorithms"
         />
       </div>
     </div>
