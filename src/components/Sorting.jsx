@@ -65,6 +65,7 @@ const Sorting = () => {
   };
 
   const bubbleSort = () => {
+    timer.current = 3;
     const parent = document.getElementById('myDiv')?.childNodes;
     let cloneArray = [...array];
     let animations = [];
@@ -106,6 +107,7 @@ const Sorting = () => {
   };
 
   const selectionSort = () => {
+    timer.current = 3;
     const parent = document.getElementById('myDiv')?.childNodes;
     let newArray = [...array];
     let N = newArray.length;
@@ -138,6 +140,7 @@ const Sorting = () => {
   };
 
   const insertionSort = () => {
+    timer.current = 3;
     const parent = document.getElementById('myDiv')?.childNodes;
     const N = array.length;
     let newArray = [...array];
@@ -173,6 +176,7 @@ const Sorting = () => {
   };
 
   const mergeSort = () => {
+    timer.current = 3;
     Arr.current = [...array];
     mergeSortAnimations.current = [];
     tempArray.current = [];
